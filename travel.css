@@ -1,3 +1,36 @@
 body{
     background-color: #ECF1F0;
+   
 }
+
+
+
+.cards{
+    display: flex;
+    
+}
+.card{
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+
+input[type="button"] {
+    background-color: #00A651;
+    color: #eee;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 25px;
+    border: 1px solid #00A651 ;
+    border-radius: 10px;
+  
+    
+  }
+input[type="button"]:hover {
+    background-color: grey;
+   
+ }
