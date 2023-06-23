@@ -84,7 +84,20 @@ img {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-   
+    width: 433px;
+}
+
+.card-1, .subtitle {
+    position: relative;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    font-weight: bolder;
 }
 
 input[type="button"] {
@@ -93,9 +106,10 @@ input[type="button"] {
     padding: 15px 50px;
     border: 1px solid #00A651 ;
     border-radius: 10px;
-  
-    
-  }
+    font-weight:bolder;
+    font-size: large;
+}
+
 input[type="button"]:hover {
     background-color: grey;
 }
